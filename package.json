@@ -1,0 +1,43 @@
+{
+  "name": "npm-package-scanner",
+  "version": "0.0.1",
+  "description": "Scan npm packages and get their package.json, get license and other information, indicate the possible impact on the project.",
+  "main": "lib/index.js",
+  "bin": {
+    "npm-package-scanner": "./bin/npm-package-scanner.js"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "js",
+    "npm",
+    "package.json",
+    "package",
+    "scanner",
+    "package-scanner",
+    "license",
+    "lisence",
+    "licence",
+    "license-scanner",
+    "MIT",
+    "ISC",
+    "BSD"
+  ],
+  "homepage": "https://github.com/nervouself/npm-package-scanner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nervouself/npm-package-scanner.git"
+  },
+  "author": "Shi Lei <https://github.com/nervouself>",
+  "license": "ISC",
+  "dependencies": {
+    "got": "11.4.0",
+    "npm-package-arg": "8.0.1",
+    "ora": "5.0.0",
+    "semver": "7.3.2",
+    "yargs": "4.8.1"
+  }
+}
