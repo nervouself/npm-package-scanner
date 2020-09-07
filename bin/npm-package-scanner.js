@@ -124,6 +124,7 @@ if (
       console.log(JSON.stringify(result, null ,2))
     }
   }).catch((err) => {
+    if (!argv.debug && spinner) spinner.fail('Scan failed')
     console.error(err)
   })
 }

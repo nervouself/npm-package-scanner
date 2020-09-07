@@ -38,6 +38,7 @@ const scanner = new Scanner({
   debug: false,
   registry: 'https://registry.npmjs.org',
   depth: 1,
+  cache: null,
 })
 
 // name
@@ -71,6 +72,10 @@ scanner.scanLock(Reader.readYarnLock(file)).then((res) => {
   console.log(res.map)
 })
 ```
+
+#### cache option
+
+`cache` is a cache instance, you can pass in any cache system that implements the `get` and `set` interfaces, such as LRU.
 
 ### format
 
