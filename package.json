@@ -1,6 +1,6 @@
 {
   "name": "npm-package-scanner",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Scan npm packages and get their package.json, get license and other information, indicate the possible impact on the project.",
   "main": "lib/index.js",
   "bin": {
